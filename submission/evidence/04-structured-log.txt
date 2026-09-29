@@ -1,0 +1,16 @@
+Structured response log from correlation_id req-d922b380:
+
+{
+  "ts": "2026-09-29T09:39:26.247800Z",
+  "level": "info",
+  "service": "api",
+  "event": "response_sent",
+  "correlation_id": "req-d922b380",
+  "user_id_hash": "23eb0de44cad",
+  "session_id": "pii-evidence",
+  "feature": "qa",
+  "model": "claude-sonnet-4-5",
+  "env": "dev",
+  "latency_ms": 152,
+  "ttft_ms": 50
+}

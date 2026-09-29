@@ -7,6 +7,8 @@ primary_slo:
     total_event: 'event == "request_received"'
   target_percent: 99.5
   error_budget_percent: 0.5
+  error_budget_calculation: "100 - 99.5 = 0.5% of requests in 28d; for 10,000 requests, at most 50 may fail or exceed 3,000 ms."
+  rationale: "A 3,000 ms threshold protects interactive chat responsiveness while allowing occasional transient delays during the lab workload."
   note: Học viên phải giải thích hoặc điều chỉnh ngưỡng bằng baseline của mình.
 guardrails:
   error_rate_pct_max: 2

@@ -1,0 +1,11 @@
+PII redaction evidence from request_received for correlation_id req-d922b380:
+
+{
+  "event": "request_received",
+  "correlation_id": "req-d922b380",
+  "payload": {
+    "message_preview": "Contact [REDACTED_EMAIL] or [REDACTED_PHONE_VN]. CCCD [REDACTED_CCCD]. Card [RED..."
+  }
+}
+
+Raw test values are intentionally omitted from this evidence. The generated log contains only redaction markers.
